@@ -1,1 +1,4 @@
-lucky-word: Rabbit's Foot
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8010/eureka/
