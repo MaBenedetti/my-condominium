@@ -4,3 +4,10 @@ eureka:
             defaultZone: http://127.0.0.1:8010/eureka/    
         instance:
             hostname: localhost
+
+spring:
+  datasource:
+    url: jdbc:mysql://192.168.221.1:3306/microservices?autoReconnect=true
+    username: root
+    password: admin
+    driver-class-name: com.mysql.jdbc.Driver
